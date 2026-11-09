@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact page - Shopella</title>
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
 </head>
 <body>
-    <h1>Contact Us</h1>
+    <h1 class="text-center text-warning">Contact Us</h1>
     <p>If you have any questions or feedback, feel free to reach out to us!</p>
+
+    <table class="table table-bordered">
+
+        <tr class="table-danger">
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+        </tr>
+
+        <tr>
+            <td>John </td>
+            <td>Doe@gmail.com</td>
+            <td>123-456-7890</td>
+        </tr>
+
+        <tr>
+            <td>John </td>
+            <td>Doe@gmail.com</td>
+            <td>123-456-7890</td>
+        </tr>
+
+        <tr>
+            <td>John </td>
+            <td>Doe@gmail.com</td>
+            <td>123-456-7890</td>
+        </tr>
+    </table>
 </body>
 </html>

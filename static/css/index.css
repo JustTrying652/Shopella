@@ -1,0 +1,15 @@
+h1{
+    color: blueviolet;
+    font-size: 40px;
+}
+
+p{
+    font-weight: bold;
+}
+
+button{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
